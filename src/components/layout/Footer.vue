@@ -1,10 +1,11 @@
 <template>
-  <section class="footer container">
+<section class="footer container-fluid">
+  <div class="container">
     <div class="footer__menu">
       <div class="row">
         <div class="col-md-4">
           <div class="logo">
-            <h1>Logo</h1>
+            <img src="../../images/logo/logo.png">
           </div>
         </div>
         <div class="col-md-8">
@@ -83,7 +84,8 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 </template>
 
 <script>

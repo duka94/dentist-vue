@@ -2,28 +2,39 @@
   background-color: $primary-color;
   color: $secondary-color;
 }
+
 .footer__menu{
   border-bottom: 1px solid;
 }
+
+.logo {
+  margin: 13px 0;
+}
+
 .menu__ul{
   margin: 35px 0;
   display: flex;
   list-style: none;
   text-transform: uppercase;
 }
+
 .footer__information{
   padding: 14px 0 19px 0;
 }
+
 .icon{
   margin: 16px 10px 0 0;
 }
+
 .information__location{
   padding: 0 0 0 15px;
 }
+
 .information__social{
   padding: 0 15px 0 0;
   margin: 6px 0 0 0;
 }
+
 .info-social{
   margin: 0 0 0 20px;
   width: 30px;
@@ -35,14 +46,16 @@
   -webkit-box-pack: center;
   justify-content: center;
   &:hover {
-    color: $a-hover-color;
+    color: $main-color;
   }
   cursor: pointer;
 }
+
 a{
   color: inherit;
   text-decoration: none;
+
   &:hover {
-    color: $a-hover-color;
+    color: $main-color;
   }
 }
