@@ -1,6 +1,6 @@
 <template>
     <div>
-        <carousel :per-page="1" :paginationActiveColor="'#00aeb0'" :autoplay="false" :autoplayTimeout="1500" :loop="true">
+        <carousel :per-page="1" :paginationActiveColor="'#00aeb0'" :autoplay="true" :autoplayTimeout="1500" :loop="true">
             <slide class="slide_img slide_1">
                 <div class="slide__content">
                     <div class="slide__content-header">
