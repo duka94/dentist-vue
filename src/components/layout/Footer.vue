@@ -11,12 +11,12 @@
         <div class="col-md-8">
           <div class="menu">
             <ul class="menu__ul justify-content-between">
-              <li><a href="#">Početna</a></li>
-              <li><a href="#">Zakazivanje</a></li>
-              <li><a href="#">O Nama</a></li>
-              <li><a href="#">Usluge</a></li>
-              <li><a href="#">Galerija</a></li>
-              <li><a href="#">Kontakt</a></li>
+              <li class="menu__li"><a href="#">Početna</a></li>
+              <li class="menu__li"><a href="#">Zakazivanje</a></li>
+              <li class="menu__li"><a href="#">O Nama</a></li>
+              <li class="menu__li"><a href="#">Usluge</a></li>
+              <li class="menu__li"><a href="#">Galerija</a></li>
+              <li class="menu__li"><a href="#">Kontakt</a></li>
             </ul>
           </div>
         </div>
