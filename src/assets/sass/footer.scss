@@ -1,0 +1,80 @@
+.footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+
+.footer__menu {
+  border-bottom: 1px solid;
+}
+
+.logo {
+  margin: 13px 0;
+}
+
+.menu__ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.menu__li {
+  padding: 35px 0;
+  &:active {
+      color: $main-color;
+      font-weight: 700;
+  }
+}
+
+.footer__information {
+  padding: 14px 0 19px 0;
+}
+
+.icon {
+  margin: 16px 10px 0 0;
+}
+
+.information__location {
+  padding: 0 0 0 15px;
+}
+
+.information__social {
+  padding: 0 15px 0 0;
+  margin: 6px 0 0 0;
+}
+
+.info-social {
+  margin: 0 0 0 20px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  &:hover {
+    color: $main-color;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: $main-color;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+}

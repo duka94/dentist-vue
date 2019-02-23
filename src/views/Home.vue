@@ -1,9 +1,13 @@
 <template>
-  <div />
+  <div>
+    <home-page-top-slider />
+  </div>
 </template>
 
 <script>
-  export default {
 
+  export default {
+    components: {
+    }
   }
 </script>
