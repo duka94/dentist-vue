@@ -3,8 +3,8 @@
   top: 600px;
 }
 
-.slide_img {
-  background-position: center !important;
+.VueCarousel-slide {
+  background-position: 50% !important;
   background-size: cover !important;
   text-align: center;
 }
@@ -15,7 +15,8 @@
 }
 
 .slide__content {
-  padding: 300px 0 320px 0;
+  padding: 300px 0 249px 0;
+  background-color: rgba(0,0,0,0.35);
 }
 
 .slide__content-header {
@@ -26,8 +27,12 @@
 }
 
 .slide__content-header-p {
-font-family: Montserrat,sans-serif;
-font-size: 16px;
-letter-spacing: 1.4px;
-text-transform: uppercase;
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.VueCarousel-dot:focus {
+  outline: 0!important;
 }

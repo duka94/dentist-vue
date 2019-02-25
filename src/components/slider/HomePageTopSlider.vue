@@ -1,7 +1,17 @@
 <template>
     <div>
-        <carousel :per-page="1" :paginationActiveColor="'#00aeb0'" :autoplay="false" :autoplayTimeout="1500" :loop="true">
-            <slide v-for="image in images" :key="image.text" :style="{ 'background-image': 'url('+image.url+')'} ">
+        <carousel
+                :per-page="1"
+                :paginationActiveColor="'#00aeb0'"
+                :autoplay="true"
+                :autoplayTimeout="2500"
+                :loop="true"
+        >
+            <slide
+                    v-for="image in images"
+                    :key="image.text"
+                    :style="{ 'background-image': 'url('+image.url+')'}"
+            >
                 <div class="slide__content">
                     <div class="slide__content-header">
                         <h1> {{ image.h1 }} </h1>
