@@ -1,0 +1,38 @@
+.VueCarousel-pagination {
+  position: absolute;
+  top: 600px;
+}
+
+.VueCarousel-slide {
+  background-position: 50% !important;
+  background-size: cover !important;
+  text-align: center;
+}
+
+.VueCarousel-wrapper {
+  width: auto;
+  height: 713.625px;
+}
+
+.slide__content {
+  padding: 300px 0 249px 0;
+  background-color: rgba(0,0,0,0.35);
+}
+
+.slide__content-header {
+  color: #fff;
+  font-size: 2.23em;
+  letter-spacing: 2px;
+  font-family: Open Sans,sans-serif;
+}
+
+.slide__content-header-p {
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.VueCarousel-dot:focus {
+  outline: 0!important;
+}
