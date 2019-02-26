@@ -36,28 +36,28 @@
                         url: '../../images/home/top-slider/prijemni_deo.jpeg',
                     },
                     {
-                        h1:'Ordinacija',
-                        text: 'Sala broj 1',
+                        title:'Ordinacija',
+                        subtitle: 'Sala broj 1',
                         url: '../../images/home/top-slider/ordinacija_1.jpeg',
                     },
                     {
-                        h1: 'Ordinacija',
-                        text: 'Sala broj 2',
+                        title: 'Ordinacija',
+                        subtitle: 'Sala broj 2',
                         url: '../../images/home/top-slider/ordinacija_2.jpeg',
                     },
                     {
-                        h1: 'Ordinacija',
-                        text: 'Sala broj 3',
+                        title: 'Ordinacija',
+                        subtitle: 'Sala broj 3',
                         url: '../../images/home/top-slider/ordinacija_3.jpeg',
                     },
                     {
-                        h1: 'Toalet',
-                        text: 'Za pacijente',
+                        title: 'Toalet',
+                        subtitle: 'Za pacijente',
                         url: '../../images/home/top-slider/toalet.jpeg',
                     },
                     {
-                        h1: 'Lekarska',
-                        text: 'Soba',
+                        title: 'Lekarska',
+                        subtitle: 'Soba',
                         url: '../../images/home/top-slider/lekarska_soba.jpeg',
                     },
                 ]
