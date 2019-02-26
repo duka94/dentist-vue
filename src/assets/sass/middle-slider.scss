@@ -2,10 +2,10 @@
   padding: 100px 0;
   text-align: center;
   color: $main-color;
+}
 
-  h1 {
-    font-weight: 400;
-  }
+.middle-slider__title {
+  font-weight: 400;
 }
 
 .VueCarousel-navigation-button {
@@ -19,18 +19,17 @@
 .slide__content-middle {
   width: 270px;
   margin: 0 5px;
-
-  p {
-    font-size: 1.3em;
-  }
-
-  img {
-    display: block;
-    max-width: 100%;
-    margin: auto;
-  }
+}
+.slide__content-middle-title{
+  font-size: 1.3em;
 }
 
-.VueCarousel {
+.slide__content-middle-img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+.VueCarousel__middle-slider {
   padding: 58px 0 0 0;
 }
