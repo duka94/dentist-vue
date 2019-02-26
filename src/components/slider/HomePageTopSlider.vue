@@ -1,26 +1,26 @@
 <template>
-    <div>
-        <carousel
-                :per-page="1"
-                :paginationActiveColor="'#00aeb0'"
-                :autoplay="true"
-                :autoplayTimeout="2500"
-                :loop="true"
+    <carousel
+            class="VueCarousel__top-slider"
+            :per-page="1"
+            :paginationActiveColor="'#00aeb0'"
+            :autoplay="true"
+            :autoplayTimeout="2500"
+            :loop="true"
+            :paginationSize="15"
+    >
+        <slide
+                v-for="image in images"
+                :key="image.subtitle"
+                :style="{ 'background-image': 'url('+image.url+')'}"
         >
-            <slide
-                    v-for="image in images"
-                    :key="image.text"
-                    :style="{ 'background-image': 'url('+image.url+')'}"
-            >
-                <div class="slide__content">
-                    <div class="slide__content-header">
-                        <h1> {{ image.h1 }} </h1>
-                        <p class="slide__content-header-p">{{ image.text }}</p>
-                    </div>
+            <div class="slide__content">
+                <div class="slide__content-header">
+                    <h1> {{ image.title }} </h1>
+                    <p class="slide__content-header-subtitle">{{ image.subtitle }}</p>
                 </div>
-            </slide>
-        </carousel>
-    </div>
+            </div>
+        </slide>
+    </carousel>
 </template>
 
 <script>
@@ -31,8 +31,8 @@
             return {
                 images: [
                     {
-                        h1: 'Ordinacija',
-                        text: 'Prijemni deo',
+                        title: 'Ordinacija',
+                        subtitle: 'Prijemni deo',
                         url: '../../images/home/top-slider/prijemni_deo.jpeg',
                     },
                     {
