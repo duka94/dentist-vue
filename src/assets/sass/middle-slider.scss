@@ -1,0 +1,38 @@
+.middle-slider {
+  padding: 100px 0;
+  text-align: center;
+  color: $main-color;
+  h1 {
+    font-weight: 400;
+  }
+}
+
+.VueCarousel-navigation-button {
+  width: 36px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.fa-angle-right {
+  width: 20px;
+  color: $main-color;
+}
+
+.slide__content {
+  width: 270px;
+  margin: 0 5px;
+  p {
+    font-size: 1.3em;
+  }
+}
+
+.VueCarousel {
+  padding: 58px 0 0 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}

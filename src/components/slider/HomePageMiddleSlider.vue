@@ -1,29 +1,28 @@
 <template>
-    <div class="container">
-        <carousel
-                :per-page="4"
-                :autoplay="false"
-                :navigationEnabled="true"
-                :paginationEnabled="false"
-                :loop="true"
+    <div class="middle-slider">
+        <header>
+            <h1>Upoznajte naš tim</h1>
+        </header>
+        <carousel class="container"
+                  per-page="4"
+                  :autoplay="false"
+                  :navigationEnabled="true"
+                  :paginationEnabled="false"
+                  :loop="true"
+                  navigationNextLabel="
+                  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512'><path fill='#00aeb0' path d='M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z'/></svg>"
+                  navigationPrevLabel="
+                  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512'><path fill='#00aeb0' path d='M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z'/></svg>"
         >
-            <slide
-                    v-for="image in images"
-                    :key="image.text"
-            >
+            <slide v-for="image in images" :key="image.p">
                 <div class="slide__content">
-                    <div class="slide__content-header">
-                        <div>
-                            <img v-bind:src="image.image">
-                        </div>
-                        <h1> {{ image.h1 }} </h1>
-                    </div>
+                    <img v-bind:src="image.image">
+                    <p> {{ image.p }} </p>
                 </div>
             </slide>
         </carousel>
     </div>
 </template>
-
 <script>
     import { Carousel, Slide } from 'vue-carousel'
 
@@ -32,39 +31,39 @@
             return {
                 images: [
                     {
-                        h1: 'Dr Sanja Srećkov',
+                        p: 'Dr Sanja Srećkov',
                         image: '../../images/osoblje/sanja.jpeg',
                     },
                     {
-                        h1:'Dr Danka Čepić',
+                        p:'Dr Danka Čepić',
                         image: '../../images/osoblje/danka.jpeg',
                     },
                     {
-                        h1: 'Dr Dragana Krulj',
+                        p: 'Dr Dragana Krulj',
                         image: '../../images/osoblje/dragana.jpeg',
                     },
                     {
-                        h1: 'Dr Marijan Milojević',
+                        p: 'Dr Marijan Milojević',
                         image: '../../images/osoblje/marijan.jpeg',
                     },
                     {
-                        h1: 'Prof. dr Zorica Gajinov ',
+                        p: 'Prof. dr Zorica Gajinov ',
                         image: '../../images/osoblje/zorica.jpeg',
                     },
                     {
-                        h1: 'Milena Radman',
+                        p: 'Milena Radman',
                         image: '../../images/osoblje/milena.jpeg',
                     },
                     {
-                        h1: 'Aleksandra Hever',
+                        p: 'Aleksandra Hever',
                         image: '../../images/osoblje/aleksandra.jpeg',
                     },
                     {
-                        h1: 'Milica Grozdanović',
+                        p: 'Milica Grozdanović',
                         image: '../../images/osoblje/milica.jpeg',
                     },
                     {
-                        h1: 'Drenka Srećkov',
+                        p: 'Drenka Srećkov',
                         image: '../../images/osoblje/drenka.jpeg',
                     },
                 ]
