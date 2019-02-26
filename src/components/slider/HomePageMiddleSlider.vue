@@ -1,10 +1,10 @@
 <template>
     <div class="middle-slider">
         <header>
-            <h1>Upoznajte naš tim</h1>
+            <h1 class="middle-slider__title">Upoznajte naš tim</h1>
         </header>
         <carousel
-                  class="container"
+                  class="container VueCarousel__middle-slider"
                   per-page="4"
                   :autoplay="false"
                   :navigationEnabled="true"
@@ -16,8 +16,8 @@
         >
             <slide v-for="image in images" :key="image.p">
                 <div class="slide__content-middle">
-                    <img class="" v-bind:src="image.image">
-                    <p> {{ image.p }} </p>
+                    <img class="slide__content-middle-img" :src="image.image">
+                    <p class="slide__content-middle-title"> {{ image.title }} </p>
                 </div>
             </slide>
         </carousel>
@@ -31,39 +31,39 @@
             return {
                 images: [
                     {
-                        p: 'Dr Sanja Srećkov',
+                        title: 'Dr Sanja Srećkov',
                         image: '../../images/osoblje/sanja.jpeg',
                     },
                     {
-                        p:'Dr Danka Čepić',
+                        title:'Dr Danka Čepić',
                         image: '../../images/osoblje/danka.jpeg',
                     },
                     {
-                        p: 'Dr Dragana Krulj',
+                        title: 'Dr Dragana Krulj',
                         image: '../../images/osoblje/dragana.jpeg',
                     },
                     {
-                        p: 'Dr Marijan Milojević',
+                        title: 'Dr Marijan Milojević',
                         image: '../../images/osoblje/marijan.jpeg',
                     },
                     {
-                        p: 'Prof. dr Zorica Gajinov ',
+                        title: 'Prof. dr Zorica Gajinov ',
                         image: '../../images/osoblje/zorica.jpeg',
                     },
                     {
-                        p: 'Milena Radman',
+                        title: 'Milena Radman',
                         image: '../../images/osoblje/milena.jpeg',
                     },
                     {
-                        p: 'Aleksandra Hever',
+                        title: 'Aleksandra Hever',
                         image: '../../images/osoblje/aleksandra.jpeg',
                     },
                     {
-                        p: 'Milica Grozdanović',
+                        title: 'Milica Grozdanović',
                         image: '../../images/osoblje/milica.jpeg',
                     },
                     {
-                        p: 'Drenka Srećkov',
+                        title: 'Drenka Srećkov',
                         image: '../../images/osoblje/drenka.jpeg',
                     },
                 ]
