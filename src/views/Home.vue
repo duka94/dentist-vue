@@ -1,13 +1,17 @@
 <template>
   <div>
     <home-page-top-slider />
+    <home-page-middle-slider />
   </div>
 </template>
 <script>
+  
   import HomePageTopSlider from './../components/slider/HomePageTopSlider'
+  import HomePageMiddleSlider from './../components/slider/HomePageMiddleSlider'
   export default {
     components: {
-      HomePageTopSlider
+      HomePageTopSlider,
+      HomePageMiddleSlider
     }
   }
 </script>
