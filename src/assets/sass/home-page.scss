@@ -36,3 +36,12 @@
     transition: all 0.4s;
   }
 }
+
+.services-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: $dark;
+  .main-button {
+    padding: 15px 25px;
+  }
+}
