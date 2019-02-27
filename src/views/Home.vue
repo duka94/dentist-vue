@@ -21,20 +21,26 @@
         </div>
       </div>
     </section>
+    <home-page-services />
     <home-page-middle-slider />
+    <home-page-appointment />
     <home-page-bottom-slider />
   </div>
 </template>
 <script>
   
   import HomePageTopSlider from './../components/slider/HomePageTopSlider'
+  import HomePageServices from './../components/HomePageServices'
   import HomePageMiddleSlider from './../components/slider/HomePageMiddleSlider'
+  import HomePageAppointment from './../components/HomePageAppointment'
   import HomePageBottomSlider from './../components/slider/HomePageBottomSlider'
   
   export default {
     components: {
       HomePageTopSlider,
+      HomePageServices,
       HomePageMiddleSlider,
+      HomePageAppointment,
       HomePageBottomSlider
     }
   }
