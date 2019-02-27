@@ -1,0 +1,30 @@
+.bottom-slider {
+  padding: 100px 0;
+  color: $gray;
+}
+
+.slide__content-bottom {
+  width: 360px;
+  border-radius: 4px;
+  margin: 0 10px 14px 10px;
+  padding: 19px ;
+  background-color: $dark;
+  border: 1px solid $border-color;
+  text-align: left;
+}
+
+.slide__content-bottom-title {
+  color: $main-color;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.slide__content-bottom-text {
+  font-size: 15px;
+  color: $gray;
+  line-height: 1.8;
+}
+
+.VueCarousel__bottom-slider {
+  padding: 0;
+}
