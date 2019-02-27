@@ -1,8 +1,8 @@
-.section-home-page-1 {
+.about-us-home-page {
   padding: 100px 0;
 }
 
-.section-home-page-1__content {
+.about-us-home-page__content {
   margin-right: 24px;
 
   .content-title {
@@ -23,17 +23,8 @@
 }
 
 .main-button {
-  background-color: $main-color;
-  border: 1px solid $main-color;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-  width: 263px;
+  @extend %button-all;
   padding: 15px 70px;
-  cursor: pointer;
-  text-decoration: none;
 
   &:hover {
     background-color: transparent;
