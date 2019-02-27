@@ -1,0 +1,47 @@
+.section-home-page-1 {
+  padding: 100px 0;
+}
+
+.section-home-page-1__content {
+  margin-right: 24px;
+
+  .content-title {
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: 400;
+    color: $main-color;
+  }
+
+  .content-text {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+}
+
+.button-container {
+  margin: 60px 0 0 0;
+}
+
+.main-button {
+  background-color: $main-color;
+  border: 1px solid $main-color;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  width: 263px;
+  padding: 15px 70px;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+    color: $main-color;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+}
