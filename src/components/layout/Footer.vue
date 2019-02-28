@@ -15,8 +15,10 @@
           <div class="menu">
             <ul class="menu__ul justify-content-between">
               <router-link
-                      @click.native.prevent="goToHome()" c
-                      lass="menu__li" to="/" tag="li"
+                      class="menu__li"
+                      @click.native.prevent="goToHome()"
+                      to="/"
+                      tag="li"
                       active-class="active-footer"
                       exact
               >
