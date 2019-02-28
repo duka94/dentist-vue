@@ -4,17 +4,17 @@
     <div class="footer__menu">
       <div class="row">
         <div class="col-md-4">
-          <div class="logo">
+          <router-link @click.native.prevent="goToHome()" class="logo" to="/" >
             <img src="../../images/logo/logo.png">
-          </div>
+          </router-link>
         </div>
         <div class="col-md-8">
           <div class="menu">
             <ul class="menu__ul justify-content-between">
-              <li class="menu__li"><a href="#">Početna</a></li>
+              <router-link @click.native.prevent="goToHome()" class="menu__li" to="/" tag="li" active-class="bla" exact><a>Početna</a></router-link>
               <li class="menu__li"><a href="#">Zakazivanje</a></li>
               <li class="menu__li"><a href="#">O Nama</a></li>
-              <li class="menu__li"><a href="#">Usluge</a></li>
+              <router-link class="menu__li" to="services" tag="li" active-class="bla"><a>Usluge</a></router-link>
               <li class="menu__li"><a href="#">Galerija</a></li>
               <li class="menu__li"><a href="#">Kontakt</a></li>
             </ul>
@@ -86,7 +86,15 @@
 
 <script>
   export default {
+    methods: {
+      goToHome() {
+        if(this.$route.name === 'home') {
+          window.scroll(0, 0) //scroll to the top of page
+        }
 
+        this.$router.push({ name: 'home' })
+      }
+    }
   }
 </script>
 

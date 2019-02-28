@@ -4,6 +4,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Master from './views/layout/Master'
 import Home from './views/Home'
+import Services from './views/Services'
 // import {Master, Login, List, Inbox, Profile} from './views'
 
 Vue.use(Router)
@@ -19,6 +20,11 @@ const router = new Router({
           path: '/',
           name: 'home',
           component: Home,
+        },
+        {
+          path: '/services',
+          name: 'services',
+          component: Services,
         },
       ]
     }
