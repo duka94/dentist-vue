@@ -20,7 +20,8 @@
                       class="nav-item"
                       to="/"
                       tag="li"
-                      active-class="active" exact
+                      active-class="active"
+                      exact
               >
                   <a class="link">početna</a>
               </router-link>
@@ -38,7 +39,6 @@
                       tag="li"
                       active-class="active"
               >
-
                   <a class="link">o nama</a>
               </router-link>
               <router-link
