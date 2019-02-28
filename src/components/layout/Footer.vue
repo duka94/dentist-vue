@@ -12,11 +12,11 @@
           <div class="menu">
             <ul class="menu__ul justify-content-between">
               <router-link @click.native.prevent="goToHome()" class="menu__li" to="/" tag="li" active-class="bla" exact><a>Početna</a></router-link>
-              <li class="menu__li"><a href="#">Zakazivanje</a></li>
-              <li class="menu__li"><a href="#">O Nama</a></li>
+              <router-link class="menu__li" to="scheduling" tag="li" active-class="bla"><a>Zakazivanje</a></router-link>
+              <router-link class="menu__li" to="about" tag="li" active-class="bla"><a>O nama</a></router-link>
               <router-link class="menu__li" to="services" tag="li" active-class="bla"><a>Usluge</a></router-link>
-              <li class="menu__li"><a href="#">Galerija</a></li>
-              <li class="menu__li"><a href="#">Kontakt</a></li>
+              <router-link class="menu__li" to="gallery" tag="li" active-class="bla"><a>Galerija</a></router-link>
+              <router-link class="menu__li" to="contact" tag="li" active-class="bla"><a>Kontakt</a></router-link>
             </ul>
           </div>
         </div>
