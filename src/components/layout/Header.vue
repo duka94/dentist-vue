@@ -1,13 +1,11 @@
 <template>
   <section class="section">
-    <header>
-      <div class="container flex">
+    <header class="header-section container">
+      <div class="row">
         <div class="col-md-4">
-          <figure>
+          <figure class="logo-home">
             <router-link
-                    class="logo"
                     to="/"
-                    tag="li"
             >
               <img src="../../images/logo/logo.png">
             </router-link>

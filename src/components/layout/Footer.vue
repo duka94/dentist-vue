@@ -6,9 +6,8 @@
         <div class="col-md-4">
           <router-link
                   @click.native.prevent="goToHome()"
-                  class="logo"
                   to="/" >
-            <img src="../../images/logo/logo.png">
+            <img class="logo" src="../../images/logo/logo.png">
           </router-link>
         </div>
         <div class="col-md-8">
