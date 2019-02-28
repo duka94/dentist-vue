@@ -50,14 +50,18 @@ nav > ul {
   }
 }
 
-.logo{
+.logo {
   box-sizing: border-box;
   display: block;
   color: inherit;
   cursor: pointer;
 }
 
-.main{
+.main {
   display:flex;
   justify-content: space-between;
+}
+
+.w-100 {
+  text-transform: uppercase;
 }

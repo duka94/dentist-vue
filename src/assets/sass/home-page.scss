@@ -36,3 +36,39 @@
     transition: all 0.4s;
   }
 }
+
+.services-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: $dark;
+  .main-button {
+    padding: 15px 25px;
+  }
+}
+
+.appointment-section {
+  background:
+          linear-gradient(
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0.7)
+          ),
+          url('./images/home/zakazivanje-mobile.jpg');
+  background-size: cover;
+  text-align: center;
+  color: $white;
+  font-size: 1.8em;
+}
+
+.appointment-section__content {
+  padding: 190px 0;
+  color: $white;
+
+  .main-button {
+    padding: 15px 40px;
+  }
+}
+
+.appointment-section__content-title {
+  font-weight: 400;
+}
+

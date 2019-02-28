@@ -1,7 +1,7 @@
 <template>
   <section class="section">
-    <header>
-      <div class="container flex">
+    <header class="header-section container">
+      <div class="row">
         <div class="col-md-4">
           <figure>
             <router-link
