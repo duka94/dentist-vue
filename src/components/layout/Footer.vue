@@ -4,19 +4,64 @@
     <div class="footer__menu">
       <div class="row">
         <div class="col-md-4">
-          <div class="logo">
+          <router-link
+                  @click.native.prevent="goToHome()"
+                  class="logo"
+                  to="/" >
             <img src="../../images/logo/logo.png">
-          </div>
+          </router-link>
         </div>
         <div class="col-md-8">
           <div class="menu">
             <ul class="menu__ul justify-content-between">
-              <li class="menu__li"><a href="#">Početna</a></li>
-              <li class="menu__li"><a href="#">Zakazivanje</a></li>
-              <li class="menu__li"><a href="#">O Nama</a></li>
-              <li class="menu__li"><a href="#">Usluge</a></li>
-              <li class="menu__li"><a href="#">Galerija</a></li>
-              <li class="menu__li"><a href="#">Kontakt</a></li>
+              <router-link
+                      @click.native.prevent="goToHome()" c
+                      lass="menu__li" to="/" tag="li"
+                      active-class="active-footer"
+                      exact
+              >
+                <a>Početna</a>
+              </router-link>
+              <router-link
+                      class="menu__li"
+                      to="scheduling"
+                      tag="li"
+                      active-class="active-footer"
+              >
+                <a>Zakazivanje</a>
+              </router-link>
+              <router-link
+                      class="menu__li"
+                      to="about"
+                      tag="li"
+                      active-class="active-footer"
+              >
+                <a>O nama</a>
+              </router-link>
+              <router-link
+                      class="menu__li"
+                      to="services"
+                      tag="li"
+                      active-class="active-footer"
+              >
+                <a>Usluge</a>
+              </router-link>
+              <router-link
+                      class="menu__li"
+                      to="gallery"
+                      tag="li"
+                      active-class="active-footer"
+              >
+                <a>Galerija</a>
+              </router-link>
+              <router-link
+                      class="menu__li"
+                      to="contact"
+                      tag="li"
+                      active-class="active-footer"
+              >
+                <a>Kontakt</a>
+              </router-link>
             </ul>
           </div>
         </div>
@@ -86,7 +131,15 @@
 
 <script>
   export default {
+    methods: {
+      goToHome() {
+        if(this.$route.name === 'home') {
+          window.scroll(0, 0) //scroll to the top of page
+        }
 
+        this.$router.push({ name: 'home' })
+      }
+    }
   }
 </script>
 

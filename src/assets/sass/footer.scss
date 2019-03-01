@@ -35,11 +35,12 @@
 
 .menu__li {
   padding: 35px 0;
-  &:active {
-      color: $main-color;
-      font-weight: 700;
-  }
 }
+
+.active-footer {
+    color: $main-color;
+    font-weight: 700;
+  }
 
 .footer__information {
   padding: 14px 0 19px 0;

@@ -5,7 +5,7 @@
         </header>
         <carousel
                   class="container VueCarousel__middle-slider"
-                  per-page="4"
+                  :per-page="4"
                   :autoplay="false"
                   :navigationEnabled="true"
                   :paginationEnabled="false"
