@@ -1,5 +1,3 @@
-/* tslint:disable:no-var-requires */
-
 import Vue from 'vue'
 import Router from 'vue-router'
 import Master from './views/layout/Master'

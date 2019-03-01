@@ -1,0 +1,72 @@
+{
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "extends": [
+    "plugin:vue/recommended",
+    "plugin:vue/base",
+    "plugin:vue/strongly-recommended",
+    "standard"
+  ],
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "indent": "off",
+    "vue/script-indent": ["error", 2, { "baseIndent": 1 }],
+    "comma-dangle": ["error", "always"], // force comma on last array, object element
+    "object-curly-spacing": [2, "always"], // force space into curly braces of object
+    "arrow-parens": [1, "as-needed"],
+
+    // warn about using console or debugger
+    "no-console": 1,
+    "no-debugger": 1,
+
+    // raise errors on long lines
+    "max-len": [2, {
+      "code": 120,
+      "ignoreComments": false,
+      "ignoreTrailingComments": false,
+      "ignoreUrls": false,
+      "ignoreStrings": false,
+      "ignoreTemplateLiterals": false,
+      "ignoreRegExpLiterals": false
+    }],
+
+    // maximum html attributes per lane
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": 2,
+      "multiline": {
+        "max": 1,
+        "allowFirstLine": false
+      }
+    }],
+
+    // use new syntax
+    "prefer-arrow-callback": 2,
+    "generator-star-spacing": [2, "after"],
+
+    "func-style": [2, "declaration", {
+      "allowArrowFunctions": true
+    }],
+    "no-var": 2,
+    "semi": [2, "never"],
+
+    // jsx
+    "jsx-quotes": ["error", "prefer-single"],
+
+    // rules for vue components
+    "vue/html-closing-bracket-newline": ["error", {
+      "singleline": "never",
+      "multiline": "always"
+    }],
+
+    "vue/html-closing-bracket-spacing": ["error", {
+      "startTag": "never",
+      "endTag": "never",
+      "selfClosingTag": "always"
+    }],
+
+    "vue/prop-name-casing": ["error", "camelCase"]
+  }
+}
