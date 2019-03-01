@@ -25,7 +25,7 @@ nav > ul {
 .nav-item {
   display: flex;
   align-items: center;
-  padding: 35px 0;
+  padding: 35px 0 37px;
 
   &.active {
     border-bottom: 2px solid $main-color;
@@ -50,11 +50,12 @@ nav > ul {
   }
 }
 
-.logo {
+.logo-home {
   box-sizing: border-box;
   display: block;
   color: inherit;
   cursor: pointer;
+  margin-left: 0;
 }
 
 .main {

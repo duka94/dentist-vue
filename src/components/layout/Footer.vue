@@ -6,17 +6,18 @@
         <div class="col-md-4">
           <router-link
                   @click.native.prevent="goToHome()"
-                  class="logo"
                   to="/" >
-            <img src="../../images/logo/logo.png">
+            <img class="logo" src="../../images/logo/logo.png">
           </router-link>
         </div>
         <div class="col-md-8">
           <div class="menu">
             <ul class="menu__ul justify-content-between">
               <router-link
-                      @click.native.prevent="goToHome()" c
-                      lass="menu__li" to="/" tag="li"
+                      class="menu__li"
+                      @click.native.prevent="goToHome()"
+                      to="/"
+                      tag="li"
                       active-class="active-footer"
                       exact
               >

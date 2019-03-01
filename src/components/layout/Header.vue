@@ -3,11 +3,9 @@
     <header class="header-section container">
       <div class="row">
         <div class="col-md-4">
-          <figure>
+          <figure class="logo-home">
             <router-link
-                    class="logo"
                     to="/"
-                    tag="li"
             >
               <img src="../../images/logo/logo.png">
             </router-link>
@@ -20,7 +18,8 @@
                       class="nav-item"
                       to="/"
                       tag="li"
-                      active-class="active" exact
+                      active-class="active"
+                      exact
               >
                   <a class="link">početna</a>
               </router-link>
