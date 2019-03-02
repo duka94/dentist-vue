@@ -8,24 +8,9 @@
         <div class="container services-us">
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="konzervativna" class="service__content">
                             <h2 class="services-container__header">Konzervativna i estetska stomatologija</h2>
                             <p>Konzervativna sanacija (Plombiranje zuba) sa najsavremenijim kompozitnim materijalima i glas-jonomer cementima novijih generacija</p>
                             <p>Beljenje zuba</p>
@@ -38,24 +23,9 @@
             </div>
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="oralna" class="service__content">
                             <h2 class="services-container__header">Oralna hirurgija</h2>
                             <p>Vađenje zuba</p>
                             <p>Hirurško vađenje zuba</p>
@@ -79,24 +49,9 @@
             </div>
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="parodontologija" class="service__content">
                             <h2 class="services-container__header">Parodontologija</h2>
                             <p>Uklanjanje mekih naslaga i zubnog kamenca</p>
                             <p>Kiretaža gingivalnih i parodontalnih džepova</p>
@@ -113,24 +68,9 @@
             </div>
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="protetika" class="service__content">
                             <h2 class="services-container__header">Protetika</h2>
                             <p>Bezmetalna keramika- zirconia</p>
                             <p>Metalokeramičke krune i mostovi</p>
@@ -144,24 +84,9 @@
             </div>
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="dečija" class="service__content">
                             <h2 class="services-container__header">Dečija i preventivna stomatologija</h2>
                             <p>Vađenje mlečnih zuba</p>
                             <p>Tretman nezavršenog rasta korena zuba</p>
@@ -173,24 +98,9 @@
             </div>
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="ortopedija" class="service__content">
                             <h2 class="services-container__header">Ortopedija vilica</h2>
                             <p>Mobilni ortodontski aparati</p>
                             <p>Fiksni ortodontski aparat- metalne bravice</p>
@@ -203,24 +113,9 @@
             </div>
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="endodoncija" class="service__content">
                             <h2 class="services-container__header">Endodoncija- lečenje kanala korena zuba</h2>
                             <p>Ručno i mašinsko lečenje kanala korena zuba</p>
                             <p>Endodontski retretmani</p>
@@ -231,24 +126,9 @@
             </div>
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="prf" class="service__content">
                             <h2 class="services-container__header">PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</h2>
                             <p>PRF je potpuno sigurna i bezopasna metoda. Rizik od alergijskih reakcija je minimalan jer se u terapiji koristi pacijentova krv. Metoda podrazumeva uzimanje određene količine krvi pacijenta, koja se potom u za to predviđenom uređaju centrifugira. Ovom procedurom se dobijaju odvojeni fibrin i trombociti koji se dalje koriste u:</p>
                             <p>- Terapiji parodntopatije ( režanj operacije )</p>
@@ -264,24 +144,9 @@
             </div>
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="diodni" class="service__content">
                             <h2 class="services-container__header">Diodni laser u stomatologiji</h2>
                             <p>Dentalni diodni laseri pružaju jasne prednosti u odnosu na konvencionalne metode lečenja , jer upotrebom lasera dolazi do manje destrukcije ćelija i manjeg krvarenja zahvaljujući hemostatskom efektu. Laser ima jak efekat na bakterije vršeći redukciju broja klica, čime se pospešuje njegovo antiinflamatorno dejstvo i smanjuje mogućnost infekcije. Za pacijente, a posebno za decu, primena lasera znači i manje postoperativnog bola i stoga manje potrebe za lekovima.</p>
                             <p>Dentalni diodni laser koristimo u sledećom procedurama:</p>
@@ -304,24 +169,9 @@
             </div>
             <div class="services-container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="services__menu">
-                            <ul class="services__menu-ul">
-                                <li class="services__menu-li"><a>Konzervativna i estetska stomatologija</a></li>
-                                <li class="services__menu-li"><a>Oralna hirurgija</a></li>
-                                <li class="services__menu-li"><a>Parodontologija</a></li>
-                                <li class="services__menu-li"><a>Protetika</a></li>
-                                <li class="services__menu-li"><a>Dečija i preventivna stomatologija</a></li>
-                                <li class="services__menu-li"><a>Ortopedija vilica</a></li>
-                                <li class="services__menu-li"><a>Endodoncija- lečenje kanala korena zuba</a></li>
-                                <li class="services__menu-li"><a>PRF (Platelet-rich fibrin) trombocitima obogaćen fibrin</a></li>
-                                <li class="services__menu-li"><a>Diodni laser u stomatologiji</a></li>
-                                <li class="services__menu-li"><a>Kozmetsko-estetski tretmani</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <service-navigation />
                     <div class="col-lg-8">
-                        <div class="service__content">
+                        <div id="kozmetsko" class="service__content">
                             <h2 class="services-container__header">Kozmetsko-estetski tretmani</h2>
                             <p>Mezoterapija</p>
                             <p>Osnovni microneedling tretman Dermafix aparatom</p>
@@ -334,6 +184,7 @@
                 </div>
             </div>
         </div>
+
         <home-page-appointment />
         <home-page-bottom-slider />
     </section>
@@ -342,11 +193,14 @@
 <script>
     import HomePageAppointment from './../components/HomePageAppointment'
     import HomePageBottomSlider from './../components/slider/HomePageBottomSlider'
+    import ServiceNavigation from './../components/ServiceNavigation'
 
     export default {
         components: {
             HomePageAppointment,
-            HomePageBottomSlider
+            HomePageBottomSlider,
+            ServiceNavigation
+
         }
     }
 </script>
