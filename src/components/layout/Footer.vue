@@ -1,14 +1,15 @@
 <template>
-<section class="footer container-fluid">
-  <div class="container">
-    <div class="footer__menu">
-      <div class="row">
-        <div class="col-md-4">
-          <router-link
-                  @click.native.prevent="goToHome()"
-                  to="/" >
-            <img class="logo" src="../../images/logo/logo.png">
-          </router-link>
+  <section class="footer container-fluid">
+    <div class="container">
+      <div class="footer__menu">
+        <div class="row">
+          <div class="col-md-4">
+            <router-link
+              @click.native.prevent="goToHome()"
+              to="/"
+            >
+              <img class="logo" src="../../images/logo/logo.png">
+            </router-link>
         </div>
         <div class="col-md-8">
           <div class="menu">

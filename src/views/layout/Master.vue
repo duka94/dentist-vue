@@ -13,8 +13,8 @@
   export default {
     components: {
       HeaderComponent,
-      FooterComponent
-    }
+      FooterComponent,
+    },
   }
 </script>
 

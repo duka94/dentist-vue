@@ -22,9 +22,9 @@
 </template>
 
 <script>
-    import { Carousel, Slide } from 'vue-carousel'
+  import { Carousel, Slide } from 'vue-carousel'
 
-    export default {
+  export default {
         data: function () {
             return {
                 contents: [
