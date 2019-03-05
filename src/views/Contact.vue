@@ -166,48 +166,75 @@
       </div>
     </div>
     <div class="contact-page__input-form container">
-      <form>
+      <form
+        @submit="checkForm"
+        action="https://youtube.com/"
+        method="post"
+      >
         <div class="row">
           <div class="col-lg-3">
             <input
+              id="name"
+              v-model="name"
+              name="name"
               class="contact-form__input"
               type="text"
               placeholder="Ime"
+              required
             >
           </div>
           <div class="col-lg-3">
             <input
+              id="surname"
+              v-model="surname"
+              name="surname"
               class="contact-form__input"
               type="text"
               placeholder="Prezime"
+              required
             >
           </div>
           <div class="col-lg-3">
             <input
+              id="email"
+              v-model="email"
+              name="email"
               class="contact-form__input"
-              type="text"
+              type="email"
               placeholder="Email adresa"
+              required
             >
           </div>
           <div class="col-lg-3">
             <input
+              id="tel"
+              v-model="tel"
+              type="tel"
+              name="tel"
               class="contact-form__input"
-              type="text"
               placeholder="Telefon"
             >
           </div>
           <div class="col-lg-12">
             <textarea
-              class="contact-form__textarea"
+              id="message"
+              v-model="message"
+              type="text"
               name="message"
+              class="contact-form__textarea"
               rows="10"
               placeholder="Tekst poruke"
+              required
             >
             </textarea>
           </div>
         </div>
-        <div class="button-container">
-          <a href="#" class="main-button">
+        <div class="button-container justify-content-end">
+          <button
+            class="main-button"
+            type="submit"
+            value="Submit"
+          >
             Pošalji poruku
             <svg
               class="svg-inline--fa fa-chevron-right fa-w-10"
@@ -228,7 +255,7 @@
               >
               </path>
             </svg>
-          </a>
+          </button>
         </div>
       </form>
     </div>
@@ -245,6 +272,14 @@
     components: {
       HomePageAppointment,
       HomePageBottomSlider,
+    },
+    data: {
+      errors: [],
+      name: null,
+      surname: null,
+      email: null,
+      tel: null,
+      message: null,
     },
   }
 </script>
