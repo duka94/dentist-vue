@@ -145,7 +145,6 @@
         <div class="row">
           <div class="col-lg-3">
             <input
-              id="name"
               v-model="name"
               name="name"
               class="contact-form__input"
@@ -156,7 +155,6 @@
           </div>
           <div class="col-lg-3">
             <input
-              id="surname"
               v-model="surname"
               name="surname"
               class="contact-form__input"
@@ -167,7 +165,6 @@
           </div>
           <div class="col-lg-3">
             <input
-              id="email"
               v-model="email"
               name="email"
               class="contact-form__input"
@@ -178,7 +175,6 @@
           </div>
           <div class="col-lg-3">
             <input
-              id="tel"
               v-model="tel"
               type="tel"
               name="tel"
