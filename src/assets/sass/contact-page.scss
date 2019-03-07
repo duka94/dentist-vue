@@ -46,17 +46,15 @@
   -webkit-box-pack: center;
   justify-content: center;
   cursor: pointer;
+
   &:hover {
     border: 1px solid #00aeb0;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    @include transition(all, 0.6s)
   }
 }
 
 .contact-page__info {
+
   .col-lg-5{
     padding-right: 0;
   }
