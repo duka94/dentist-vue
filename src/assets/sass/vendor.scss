@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "mixini";
 @import "~bootstrap/scss/bootstrap-grid";
 @import "./color";
 @import "./app";
@@ -12,3 +13,4 @@
 @import "./button";
 @import "./bottom-slider";
 @import "./services-page";
+@import "./gallery-page";
