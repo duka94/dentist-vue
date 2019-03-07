@@ -13,6 +13,7 @@
     "mapbox-gl": "^0.53.1",
     "vue": "^2.5.21",
     "vue-carousel": "^0.17.0",
+    "vue-easy-lightbox": "^0.3.10",
     "vue-router": "^3.0.1",
     "vue-scrollto": "^2.14.0",
     "vue2-google-maps": "^0.10.6"
