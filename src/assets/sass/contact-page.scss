@@ -1,0 +1,105 @@
+.contact-page {
+  color: $white;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.contact-page__header {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('./images/kontakt-hero.jpg');
+  background-size: cover;
+}
+
+.contact-page__info {
+  padding: 100px 0;
+}
+.contact-page__information {
+  background-color: $main-color;
+  padding: 100px 0 100px 70px;
+  font-size: 18px;
+  line-height: 1.8;
+
+  .mail, .number {
+    margin-top: 40px;
+  }
+}
+
+.contact-information{
+  padding-left: 15px;
+}
+
+.contact-page__info-social{
+  margin: 40px 0 0 15px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #00aeb0;
+    @include transition(all, 0.6s)
+  }
+}
+
+.contact-page__info {
+
+  .col-lg-5{
+    padding-right: 0;
+  }
+  .col-lg-7{
+    padding-left: 0 ;
+  }
+}
+
+.contact-page__input-form{
+  padding-bottom: 100px;
+
+  .button-container {
+    text-align: right;
+  }
+
+  .main-button {
+    padding: 15px 50px;
+  }
+}
+
+.contact-form__input {
+  width: 100%;
+  height: 46px;
+  padding-left: 15px;
+  font-size: 16px;
+  color: $gray;
+
+  &:focus {
+    outline-color: #00aeb0;
+  }
+
+}
+
+.contact-form__textarea {
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px 0 0 15px;
+  font-size: 16px;
+  font-family: Arial;
+  color: $gray;
+
+  &:focus {
+    outline-color: #00aeb0;
+  }
+}
+
+
+
